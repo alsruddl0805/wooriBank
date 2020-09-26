@@ -8,11 +8,6 @@
     margin: 0 auto;
 }
 
-div#container {
-/*    border: 1px solid #000;*/
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
 ul {
     list-style-type: none;
 }
@@ -247,8 +242,250 @@ div#slideFrame {
 
 /*main*/
 
+div#contentMenu {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -110px;
+}
+
+div#contentMenu ul {
+    height: 76px;
+    padding-left: 0;
+    margin: 0;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px 3px #ccc;
+}
+
+div#contentMenu ul>li {
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+}
+
+div#contentMenu ul>li a {
+    color: #fff;
+}
+
+div#contentMenu ul>li:first-child {
+    width: 170px;
+    line-height: 21px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 40px 0 0 40px;
+    background-color: #0082cd;
+}
+
+div#contentMenu ul>li:first-child a {
+    margin-top: 10px;
+}
+
+div#contentMenu ul>li:nth-child(2),
+div#contentMenu ul>li:nth-child(3),
+div#contentMenu ul>li:nth-child(4)
+{
+    width: 144px;
+    background-color: #3a8dfd;
+}
+
+div#contentMenu ul>li:last-child {
+    width: 170px;
+    border-radius: 0 40px 40px 0;
+    background-color: #fff;
+}
+
+div#contentMenu ul>li:last-child a {
+    color: #000;
+}
+
+div#content_add {
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+div#content_add p,div#content_add p a  {
+    margin: 0 15px;
+    display: inline-block;
+    color: #888;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div#introNews {
+    width: 980px;
+    height: 197px;
+    display: flex;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+}
+
+div#introNews ul {
+    padding-left: 0;
+    margin-top : 35px;
+}
+
+div#introNews ul li {
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #3a8dfd;
+    border-radius: 50px;
+}
+
+div#introNews ul li p {
+    height: 55px;
+}
+
+div#left {
+    width: 696px;
+}
+
+div#left ul li {
+    float: left;
+}
+
+div#right {
+    width: 260px;
+}
+
+div#right ul li {
+    float: left;
+    width: 84px;
+}
+
+div#service {
+    width: 980px;
+    height: 350px;
+}
+
+div#service ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+div#service h2{
+    padding: 10px;
+    font-weight: bold;
+}
+
+div.imgContent {
+    height: 300px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+div.imgContent h3 {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+div.imgContent span {
+    font-size: 14px;
+    color: #555;
+}
+
+div#introInfo {
+    width: 100%;
+    background-color: #f4f7fa;
+    margin: 30px 0 50px 0;
+}
+
+div#introInfoArea {
+    width: 980px;
+    height: 180px;
+    display: flex;
+}
+
+div#introInfoArea table a:hover {
+    text-decoration: underline;
+    color: #3a8dfd;
+}
+
+div#infoLeft, div#infoRight {
+    flex: 1;
+    position: relative;
+    top: -20px;
+}
+
+p.title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 57px;
+}
+
+p.title span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #888;
+}
+
+p.title span i {
+    font-size: 15px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+div#infoLeft table {
+    width: 380px;
+    margin-right: 40px;
+}
+
+div#infoLeft table tr td,
+div#infoRight table tr td {
+    line-height: 30px;
+}
+
+div#infoLeft table tr td:first-child,
+div#infoRight table tr td:first-child {
+    font-size: 14px;
+}
+
+div#infoLeft table tr td:nth-child(2) {
+    font-size: 12px;
+}
+
 /*main*/
 
 /*footer*/
+
+div#footer {
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+div#footerMenuArea {
+    width: 980px;
+    display: flex;
+}
+
+div#footerLNB {
+    flex: 4;
+}
+
+div#snsIcon {
+    flex: 1;
+}
+
+div#footerLNB ul li {
+    float: left;
+}
+
+div#snsIcon ul li {
+    float: left;
+}
 
 /*footer*/
