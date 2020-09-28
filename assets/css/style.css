@@ -21,7 +21,7 @@ a {
 
 /*header*/
 
-div#header {
+#header {
     width: 980px;
     height: 66px;
     display: flex;
@@ -30,31 +30,31 @@ div#header {
     position: relative;
 }
 
-div#headerLogo {
+#headerLogo {
     flex: 1;
     padding-top: 15px;
 }
 
-div#btnArea {
+#btnArea {
     flex: 2;
     text-align: center;
     padding-top: 15px;
 }
 
-div#btnArea ul {
+#btnArea ul {
     height: 30px;
     margin: 0;
     padding-left: 15px;
 }
 
-div#btnArea ul#mainBtn>li {
+#btnArea ul#mainBtn>li {
     height: 30px;
     line-height: 30px;
     float: left;
     border-radius: 3px;
 }
 
-div#btnArea ul#mainBtn>li:first-child {
+#btnArea ul#mainBtn>li:first-child {
     width: 80px;
     font-size: 14px;
     background-color: #0182cd;
@@ -64,14 +64,14 @@ ul#mainBtn>li>a {
     color: #fff;
 }
 
-div#btnArea ul#mainBtn>li:first-child i.fa-power-off {
+#btnArea ul#mainBtn>li:first-child i.fa-power-off {
     color: #fff;
     font-size: 13px;
     padding-right: 3px;
     margin-bottom: 4px;
 }
 
-div#btnArea ul#mainBtn>li:nth-child(2) {
+#btnArea ul#mainBtn>li:nth-child(2) {
     width: 136px;
     font-size: 14px;
     font-weight: bold;
@@ -83,7 +83,7 @@ ul#mainBtn>li:nth-child(2)>a {
     color: #000;
 }
 
-div#btnArea ul#mainBtn>li:nth-child(2) i.fa-shield-alt {
+#btnArea ul#mainBtn>li:nth-child(2) i.fa-shield-alt {
     padding-right: 3px;
     margin-bottom: 4px;
 }
@@ -226,7 +226,7 @@ ul#mainMenu>li:nth-child(7)>ul.subMenu {
 
 /*slide*/
 
-div#slideShow {
+#slideShow {
     width: 100%;
     height: 535px;
     background-color: #fff9e6;
@@ -234,7 +234,7 @@ div#slideShow {
     top: -70px;
 }
 
-div#slideFrame {
+#slideFrame {
     width: 980px;
 }
 
@@ -242,14 +242,14 @@ div#slideFrame {
 
 /*main*/
 
-div#contentMenu {
+#contentMenu {
     width: 100%;
     text-align: center;
     position: relative;
     top: -110px;
 }
 
-div#contentMenu ul {
+#contentMenu ul {
     height: 76px;
     padding-left: 0;
     margin: 0;
@@ -258,7 +258,7 @@ div#contentMenu ul {
     box-shadow: 1px 1px 5px 3px #ccc;
 }
 
-div#contentMenu ul>li {
+#contentMenu ul>li {
     height: 76px;
     line-height: 76px;
     text-align: center;
@@ -267,11 +267,11 @@ div#contentMenu ul>li {
     float: left;
 }
 
-div#contentMenu ul>li a {
+#contentMenu ul>li a {
     color: #fff;
 }
 
-div#contentMenu ul>li:first-child {
+#contentMenu ul>li:first-child {
     width: 170px;
     line-height: 21px;
     font-size: 20px;
@@ -280,35 +280,35 @@ div#contentMenu ul>li:first-child {
     background-color: #0082cd;
 }
 
-div#contentMenu ul>li:first-child a {
+#contentMenu ul>li:first-child a {
     margin-top: 10px;
 }
 
-div#contentMenu ul>li:nth-child(2),
-div#contentMenu ul>li:nth-child(3),
-div#contentMenu ul>li:nth-child(4)
+#contentMenu ul>li:nth-child(2),
+#contentMenu ul>li:nth-child(3),
+#contentMenu ul>li:nth-child(4)
 {
     width: 144px;
     background-color: #3a8dfd;
 }
 
-div#contentMenu ul>li:last-child {
+#contentMenu ul>li:last-child {
     width: 170px;
     border-radius: 0 40px 40px 0;
     background-color: #fff;
 }
 
-div#contentMenu ul>li:last-child a {
+#contentMenu ul>li:last-child a {
     color: #000;
 }
 
-div#content_add {
+#content_add {
     text-align: center;
     position: relative;
     top: -100px;
 }
 
-div#content_add p,div#content_add p a  {
+#content_add p,#content_add p a  {
     margin: 0 15px;
     display: inline-block;
     color: #888;
@@ -316,7 +316,7 @@ div#content_add p,div#content_add p a  {
     font-size: 15px;
 }
 
-div#introNews {
+#introNews {
     width: 980px;
     height: 197px;
     display: flex;
@@ -325,12 +325,12 @@ div#introNews {
     top: -40px;
 }
 
-div#introNews ul {
+#introNews ul {
     padding-left: 0;
     margin-top : 35px;
 }
 
-div#introNews ul li {
+#introNews ul li {
     width: 85px;
     height: 85px;
     text-align: center;
@@ -339,78 +339,78 @@ div#introNews ul li {
     border-radius: 50px;
 }
 
-div#introNews ul li p {
+#introNews ul li p {
     height: 55px;
 }
 
-div#left {
+#left {
     width: 696px;
 }
 
-div#left ul li {
+#left ul li {
     float: left;
 }
 
-div#right {
+#right {
     width: 260px;
 }
 
-div#right ul li {
+#right ul li {
     float: left;
     width: 84px;
 }
 
-div#service {
+#service {
     width: 980px;
     height: 350px;
 }
 
-div#service ul {
+#service ul {
     display: flex;
     padding-left: 0;
     justify-content: space-around;
 }
 
-div#service h2{
+#service h2{
     padding: 10px;
     font-weight: bold;
 }
 
-div.imgContent {
+.imgContent {
     height: 300px;
     display: inline-block;
     border: 1px solid #aaa;
     text-align: center;
 }
 
-div.imgContent h3 {
+.imgContent h3 {
     font-weight: bold;
     margin: 8px 0;
 }
 
-div.imgContent span {
+.imgContent span {
     font-size: 14px;
     color: #555;
 }
 
-div#introInfo {
+#introInfo {
     width: 100%;
     background-color: #f4f7fa;
     margin: 30px 0 50px 0;
 }
 
-div#introInfoArea {
+#introInfoArea {
     width: 980px;
     height: 180px;
     display: flex;
 }
 
-div#introInfoArea table a:hover {
+#introInfoArea table a:hover {
     text-decoration: underline;
     color: #3a8dfd;
 }
 
-div#infoLeft, div#infoRight {
+#infoLeft, #infoRight {
     flex: 1;
     position: relative;
     top: -20px;
@@ -436,22 +436,22 @@ p.title span i {
     vertical-align: middle;
 }
 
-div#infoLeft table {
+#infoLeft table {
     width: 380px;
     margin-right: 40px;
 }
 
-div#infoLeft table tr td,
-div#infoRight table tr td {
+#infoLeft table tr td,
+#infoRight table tr td {
     line-height: 30px;
 }
 
-div#infoLeft table tr td:first-child,
-div#infoRight table tr td:first-child {
+#infoLeft table tr td:first-child,
+#infoRight table tr td:first-child {
     font-size: 14px;
 }
 
-div#infoLeft table tr td:nth-child(2) {
+#infoLeft table tr td:nth-child(2) {
     font-size: 12px;
 }
 
@@ -459,33 +459,148 @@ div#infoLeft table tr td:nth-child(2) {
 
 /*footer*/
 
-div#footer {
+#footerMenu {
     width: 100%;
-    height: 40px;
-    border-top: 2px solid #ddd;
+    border-top: 3px solid #ddd;
     border-bottom: 1px solid #ddd;
     background-color: #f8f8f8;
 }
 
-div#footerMenuArea {
+#footerMenuArea {
     width: 980px;
+    height: 40px;
     display: flex;
 }
 
-div#footerLNB {
+#footerLNB {
     flex: 4;
 }
 
-div#snsIcon {
+#snsIcon {
     flex: 1;
 }
 
-div#footerLNB ul li {
+#footerLNB ul#footerMainMenu>li {
+    width: 160px;
+    line-height: 40px;
+    text-align: center; 
     float: left;
+    font-size: 12px;
 }
 
-div#snsIcon ul li {
-    float: left;
+#footerLNB ul#footerMainMenu>li i {
+    color: #0082cd;
+    font-size: 10px;
+    margin-left: 5px;
 }
+
+ul.footerSubMenu {
+    padding-left: 0;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+ul.footerSubMenu>li {
+    width: 150px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+ul.footerSubMenu>li:first-child {
+    font-size: 17px;
+    padding: 8px 0 5px 0;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 2px solid #000;
+}
+
+ul.telNum {
+    z-index: 8;
+    width: 250px;
+    padding-left: 20px;
+}
+
+ul.telNum li {
+    width: 240px;
+    margin: 0;
+}
+
+ul.telNum>li:nth-child(2)>table {
+    width: 240px;
+    border-collapse: collapse;
+}
+
+ul.telNum>li:nth-child(2)>table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+ul.telNum>li:nth-child(2)>table tr:last-child td {
+    border-bottom: none;
+}
+
+ul.telNum>li:nth-child(2)>table tr td:first-child button {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #0083cd;
+    border: none;
+    color: #fff;
+}
+
+ul.telNum>li:nth-child(2)>table tr:nth-child(2) td:first-child button {
+    background-color: #eee;
+    color: #888;
+}
+
+ul.telNum>li:nth-child(2)>table tr td:nth-child(2) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#snsIcon{
+    height: 40px;
+    text-align: center;
+}
+
+#snsIcon img {
+    margin-top: 10px;
+}
+
+#footerInfo {
+    width: 980px;
+    height: 117px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    display: flex;
+}
+
+#footerLogo {
+    width: 90px;
+    height: 62px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#info {
+    flex: 2;
+    font-size: 12px;
+    color: #888;
+    line-height: 20px;
+}
+
+#info span:last-child {
+    font-size: 11px;
+    line-height: 30px;
+}
+
+#infoImg {
+    flex: 0.5;
+    margin-top: 25px;
+}
+
 
 /*footer*/
