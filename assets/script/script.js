@@ -35,7 +35,7 @@ $("#infoImg>a").mouseout(function(){
 });
 
 // slideShow
-var slideSet = setInterval(Slide, 3000);
+var slideSet = setInterval(Slide, 2000);
 
 function Slide() {
    $("#slideFrame a:first").fadeOut(2000,function(){
@@ -45,7 +45,7 @@ function Slide() {
 }
 
 // colorSlideShow
-var colorSet = setInterval(colorSlide, 3000);
+var colorSet = setInterval(colorSlide, 2000);
 
 function colorSlide() {
    $("#slideBack p:first").fadeOut(2000,function(){
@@ -76,8 +76,8 @@ function goSlide() {
     pauseBtn.style.display = "block";
     pauseBtn.style.position = "relative";
     pauseBtn.style.top = "10px";
-    setInterval(Slide,3000);
-    setInterval(colorSlide,3000);
+    setInterval(Slide,2000);
+    setInterval(colorSlide,2000);
 }
 
 // slideDot
@@ -133,3 +133,14 @@ $("#slideDot li:nth-child(4)").click(function(){
     $("p#slide_03").fadeOut();
     $("p#slide_04").fadeIn();
 });
+
+const pager = document.querySelectorAll(".pager");
+
+for (let i =0; i<pager.length; i++) {
+    pager[i].addEventListener("click",function(){
+       for (let j = 0; j<pager.length; j++) {
+           pager[j].classList.remove("active");
+       }
+       this.classList.add("active");
+    });
+}

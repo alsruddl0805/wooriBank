@@ -314,9 +314,13 @@ ul#mainMenu>li:nth-child(7)>ul.subMenu {
 #slideMove #slideDot li {
     width: 8px;
     height: 8px;
-    background-color: #666;
+    background-color: #888;
     border-radius: 50px;
     margin: 10px 5px 5px;
+}
+
+#slideDot li.active {
+    background-color: #000 !important;
 }
 
 #slideMove #slideControl li {
