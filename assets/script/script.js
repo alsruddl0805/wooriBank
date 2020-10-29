@@ -81,57 +81,10 @@ function goSlide() {
 }
 
 // slideDot
+
 $("#slideDot li").click(function(){
     clearInterval(slideSet);
     clearInterval(colorSet);
-});
-
-$("#slideDot li:first-child").click(function(){
-    $("#slideFrame a#one").fadeIn();
-    $("#slideFrame a#two").fadeOut();
-    $("#slideFrame a#three").fadeOut();
-    $("#slideFrame a#four").fadeOut();
-
-    $("p#slide_01").fadeIn();
-    $("p#slide_02").fadeOut();
-    $("p#slide_03").fadeOut();
-    $("p#slide_04").fadeOut();
-});
-
-$("#slideDot li:nth-child(2)").click(function(){
-    $("#slideFrame a#one").fadeOut();
-    $("#slideFrame a#two").fadeIn();
-    $("#slideFrame a#three").fadeOut();
-    $("#slideFrame a#four").fadeOut();
-
-    $("p#slide_01").fadeOut();
-    $("p#slide_02").fadeIn();
-    $("p#slide_03").fadeOut();
-    $("p#slide_04").fadeOut();
-});
-
-$("#slideDot li:nth-child(3)").click(function(){
-    $("#slideFrame a#one").fadeOut();
-    $("#slideFrame a#two").fadeOut();
-    $("#slideFrame a#three").fadeIn();
-    $("#slideFrame a#four").fadeOut();
-
-    $("p#slide_01").fadeOut();
-    $("p#slide_02").fadeOut();
-    $("p#slide_03").fadeIn();
-    $("p#slide_04").fadeOut();
-});
-
-$("#slideDot li:nth-child(4)").click(function(){
-    $("#slideFrame a#one").fadeOut();
-    $("#slideFrame a#two").fadeOut();
-    $("#slideFrame a#three").fadeOut();
-    $("#slideFrame a#four").fadeIn();
-
-    $("p#slide_01").fadeOut();
-    $("p#slide_02").fadeOut();
-    $("p#slide_03").fadeOut();
-    $("p#slide_04").fadeIn();
 });
 
 const pager = document.querySelectorAll(".pager");
@@ -144,3 +97,31 @@ for (let i =0; i<pager.length; i++) {
        this.classList.add("active");
     });
 }
+
+$("#slideDot li:first-child").click(function(){
+    $("#slideFrame a#one").fadeIn();
+    $("#slideFrame a#two").fadeOut();
+    $("#slideFrame a#three").fadeOut();
+    $("#slideFrame a#four").fadeOut();
+});
+
+$("#slideDot li:nth-child(2)").click(function(){
+    $("#slideFrame a#one").fadeOut();
+    $("#slideFrame a#two").fadeIn();
+    $("#slideFrame a#three").fadeOut();
+    $("#slideFrame a#four").fadeOut();
+});
+
+$("#slideDot li:nth-child(3)").click(function(){
+    $("#slideFrame a#one").fadeOut();
+    $("#slideFrame a#two").fadeOut();
+    $("#slideFrame a#three").fadeIn();
+    $("#slideFrame a#four").fadeOut();
+});
+
+$("#slideDot li:nth-child(4)").click(function(){
+    $("#slideFrame a#one").fadeOut();
+    $("#slideFrame a#two").fadeOut();
+    $("#slideFrame a#three").fadeOut();
+    $("#slideFrame a#four").fadeIn();
+});
